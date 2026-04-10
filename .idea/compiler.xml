@@ -9,8 +9,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MusicSoteroProject" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MusicSotero" target="1.8" />
+      <module name="MusicSoteroProject" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
