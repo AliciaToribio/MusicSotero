@@ -1,7 +1,7 @@
 package $org.example;
 
 /**
- * Hello world!
+ * Aqui es donde se vera la interfaz
  *
  */
 public class App 
