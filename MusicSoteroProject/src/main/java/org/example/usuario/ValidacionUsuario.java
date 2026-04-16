@@ -3,7 +3,7 @@ package org.example.usuario;
 public class ValidacionUsuario {
 
     public boolean validarEmail(String email) {
-        return email != null && !email.isEmpty() && email.contains("@") && email.contains(".");
+        return email != null && !email.trim().isEmpty() && email.contains("@") && email.contains(".");
     }
 
     public boolean validarContrasena(String contrasena) {

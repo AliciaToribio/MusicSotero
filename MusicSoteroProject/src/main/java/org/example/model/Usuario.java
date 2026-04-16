@@ -53,6 +53,21 @@ public class Usuario {
         this.contrasena = contrasena;
     }
 
+    public List<Playlist> getPlaylists() {
+        return playlists;
+    }
+
+    public void setPlaylists(List<Playlist> playlists) {
+        this.playlists = playlists;
+    }
+
+    public List<Cancion> getCancionesFavoritas() {
+        return cancionesFavoritas;
+    }
+
+    public void setCancionesFavoritas(List<Cancion> cancionesFavoritas) {
+        this.cancionesFavoritas = cancionesFavoritas;
+    }
     public void registrarse() {
     }
 
