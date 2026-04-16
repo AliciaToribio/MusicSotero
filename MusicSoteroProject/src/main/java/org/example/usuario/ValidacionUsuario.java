@@ -3,14 +3,14 @@ package org.example.usuario;
 public class ValidacionUsuario {
 
     public boolean validarEmail(String email) {
-        return false;
+        return email != null && !email.isEmpty() && email.contains("@") && email.contains(".");
     }
 
     public boolean validarContrasena(String contrasena) {
-        return false;
+        return contrasena != null && contrasena.length() >= 6;
     }
 
     public boolean validarNombreUsuario(String nombreUsuario) {
-        return false;
+        return nombreUsuario != null && nombreUsuario.length() >= 3;
     }
 }
