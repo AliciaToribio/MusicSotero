@@ -8,6 +8,14 @@ public class Cancion {
     private Album album;
     private int reproducciones;
 
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
     public void reproducir() {
     }
 
